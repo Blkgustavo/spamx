@@ -10,11 +10,11 @@ center() {
   printf '%*.*s %s %*.*s\n' 0 "$(((termwidth-2-${#1})/2))" "$padding" "$1" 0 "$(((termwidth-1-${#1})/2))" "$padding"
 }
 echo -e "\e[92m              
-\__________________________/
-__/__|________________|__\__
-/⭕⭕_____________⭕⭕\
-|__/______GTR-R34____\____|
-\©©______|__|__|__|_____©©/SETUP
+             \__________________________/
+             __/__|________________|__\__
+               /⭕⭕_____________⭕⭕\
+             |__/______GTR-R34____\____|
+             \©©______|__|__|__|_____©©/ SETUP
 "
 cd $HOME
 grn="\e[92m"
@@ -24,8 +24,8 @@ echo -e "\e[92m"
 center "SETUP PROCESS"
 echo -e "
        $grn-----------------------------------$grn
-      |$grn FOLLLOW:$cod github.com/noob-hackers $grn |$grn
-      |$grn SUBSCRIBE:$cod Noob Hackers          $grn |$grn
+      |$grn FOLLLOW:$cod github.com/BlkGustavo $grn |$grn
+      |$grn SUBSCRIBE:$Blk_Gustavo_          $grn |$grn
       |$grn CHAT:$cod wa.me/+919113948054        $grn |$grn
        $grn-----------------------------------$grn
 "
