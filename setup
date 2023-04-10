@@ -1,8 +1,4 @@
-#SOME DICK HEADS TRY TO ABUSE OUR SCRIPT AND WE DONT GIVE FUCK TO THIER OPINIONS, USE IT ON YOUR OWN RISK WE DONT COLLECT ANY KIND OF YOUR PRIVATE DATA.
-#BUT SOME ELSE CAN MODIFY OUR SCRIPT AND THEY MAY DISTRACT YOU. JUST IGNORE THAT DICK HEADS.
-#FOR OUR SAFETY WE IMPLIMENTED SOME TECHNIQUES, CAUSE WE DONT LIKE TO GET IN TROUBLE SO. DONT EVEN TRY TO BOMB ON US.
-#OUR SCRIPTS USES FORK BOMBS IF THEY TRY TO HARM ANY OF THE DEVELOPER OF THIS SCRIPT..
-#CONTRIBUTORS ALWAYS WELCOME...AND HATERS F*CK OFF
+
 clear
 center() {
   termwidth=$(stty size | cut -d" " -f2)
@@ -10,11 +6,7 @@ center() {
   printf '%*.*s %s %*.*s\n' 0 "$(((termwidth-2-${#1})/2))" "$padding" "$1" 0 "$(((termwidth-1-${#1})/2))" "$padding"
 }
 echo -e "\e[92m              
-             \__________________________/
-             __/__|________________|__\__
-               /⭕⭕_____________⭕⭕\
-             |__/______GTR-R34____\____|
-             \©©______|__|__|__|_____©©/ SETUP
+             BLK    SETUP
 "
 cd $HOME
 grn="\e[92m"
